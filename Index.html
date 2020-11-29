@@ -341,7 +341,7 @@
             <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
             <br>
             <!-- I had put method="post" -->
-            <form action="http://formspree.io/danny93lopez@gmail.com" method="post">
+            <form action="Post" data-netlify="true">
                 <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
                 <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
                 <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
@@ -351,6 +351,8 @@
                         <i class="fa fa-paper-plane"></i> SEND MESSAGE
                     </button>
                 </p>
+                <div data-netlify-recaptcha="true">
+                </div>
             </form>
             <!-- Image of location/map -->
             <img src="World.jpg" style="width:100%;margin-top:48px">
